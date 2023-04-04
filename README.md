@@ -1,5 +1,5 @@
-# consul-agent
-Example of building your own Consul Agent along side Nginx web server. While not the best practice, idea is to demonstrate two processes co-located togeter inside Docker.
+# consul-agent with nginx
+Example of building your own Consul Agent along side Nginx web server. While not the best practice, idea is to demonstrate two processes co-located togeter inside Docker. Instead of Nginx this could have been any other similar service.
 After cloning a repo run 
 ```
 docker build -t h-consul  --progress=plain --no-cache .
